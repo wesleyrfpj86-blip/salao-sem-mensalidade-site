@@ -1,12 +1,12 @@
 ---
-title: Mensagem para cliente sumida do salão: 15 modelos prontos
-h1: Mensagem para cliente sumida do salão: como chamar de volta sem parecer chata
+title: Mensagem para cliente que sumiu: 15 modelos prontos
+h1: Mensagem para cliente que sumiu: 15 modelos para chamar de volta sem parecer chata
 slug: mensagem-para-cliente-sumida-do-salao
-description: Modelos de mensagem para chamar de volta a cliente que sumiu do salão, prontos para WhatsApp. Saiba quando mandar, o que dizer e o que evitar.
+description: 15 modelos de mensagem para cliente que sumiu, prontos para WhatsApp. Saiba quando mandar, o que dizer para a cliente sumida voltar e o que evitar.
 date: 2026-10-05
 resposta: Para chamar de volta uma cliente sumida do salão, mande uma mensagem individual no WhatsApp, com o nome dela, em tom de carinho e sem cobrança. Diga que sentiu falta, ofereça um motivo concreto para voltar, como um desconto ou mimo com prazo, e termine com uma pergunta fácil de responder. Se ela não responder, espere algumas semanas antes de tentar de novo.
 ---
-<p class="lead">Toda dona de salão tem aquela lista de clientes que vinham sempre e, de repente, pararam de aparecer. Na maioria das vezes ela não foi embora por raiva. Ela só se distraiu, a rotina apertou ou alguém chamou primeiro. Uma mensagem simples, no momento certo, traz boa parte dessas clientes de volta. Aqui estão modelos prontos e o jeito certo de usar.</p>
+<p class="lead">Precisa de uma mensagem para cliente que sumiu? Toda dona de salão tem aquela lista de clientes que vinham sempre e, de repente, pararam de aparecer. Na maioria das vezes ela não foi embora por raiva. Ela só se distraiu, a rotina apertou ou alguém chamou primeiro. Uma mensagem simples, no momento certo, traz boa parte dessas clientes de volta. Aqui estão modelos prontos e o jeito certo de usar.</p>
 
 ## Quando a cliente conta como sumida?
 

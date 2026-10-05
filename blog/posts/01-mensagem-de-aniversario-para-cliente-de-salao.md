@@ -1,12 +1,12 @@
 ---
-title: Mensagem de aniversário para cliente de salão: 20 modelos
-h1: Mensagem de aniversário para cliente de salão: 20 modelos prontos para WhatsApp
+title: Mensagem de aniversário para cliente: 20 modelos prontos
+h1: Mensagem de aniversário para cliente: 20 modelos prontos para WhatsApp (salão de beleza)
 slug: mensagem-de-aniversario-para-cliente-de-salao
-description: 20 mensagens de aniversário para clientes de salão, prontas para copiar e mandar no WhatsApp. Com e sem cupom, curtas, carinhosas e para cliente sumida.
+description: 20 modelos de mensagem de aniversário para cliente, prontos para copiar e mandar no WhatsApp. Curtas, carinhosas, com cupom de desconto e para cliente sumida.
 date: 2026-10-05
 resposta: Mande a mensagem de aniversário no próprio dia, de manhã, pelo WhatsApp do salão, para cada cliente individualmente e chamando pelo nome. Um texto curto e carinhoso funciona melhor, e um presente com prazo, como 15% de desconto até o fim do mês, ajuda a cliente a marcar um horário. Abaixo estão 20 modelos prontos para copiar.
 ---
-<p class="lead">O aniversário é o melhor motivo do ano para falar com a sua cliente. Ela está feliz, quer se arrumar e recebe a sua mensagem como um carinho, não como propaganda. Abaixo você encontra 20 mensagens prontas, separadas por estilo. É só tocar em <strong>Copiar</strong>, colar no WhatsApp e trocar o nome.</p>
+<p class="lead">Procurando uma mensagem de aniversário para cliente? O aniversário é o melhor motivo do ano para falar com a sua cliente. Ela está feliz, quer se arrumar e recebe a sua mensagem como um carinho, não como propaganda. Abaixo você encontra 20 mensagens prontas, separadas por estilo. É só tocar em <strong>Copiar</strong>, colar no WhatsApp e trocar o nome.</p>
 
 ## Por que mandar mensagem de aniversário para a cliente?
 

@@ -1,8 +1,8 @@
 ---
-title: De quanto em quanto tempo a cliente deve voltar ao salão?
-h1: De quanto em quanto tempo a cliente deve voltar? Tabela de retorno por procedimento
+title: De quanto em quanto tempo fazer progressiva, raiz e mais
+h1: De quanto em quanto tempo fazer progressiva, retocar a raiz e outros procedimentos? Tabela de retorno
 slug: de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao
-description: Tabela com o intervalo médio de retorno de cada procedimento de salão: retoque de raiz, progressiva, botox capilar, corte, unha, sobrancelha, cílios e depilação.
+description: De quanto em quanto tempo fazer progressiva, retocar a raiz, botox capilar, unha e sobrancelha? Veja a tabela com o intervalo médio de cada procedimento de salão.
 date: 2026-10-05
 resposta: Em média, o retoque de raiz é feito a cada 4 a 6 semanas, a progressiva a cada 3 a 4 meses, o botox capilar a cada 1 a 2 meses, a manicure a cada 7 a 15 dias, o design de sobrancelha a cada 15 a 20 dias e a manutenção de cílios a cada 15 a 21 dias. O prazo ideal de cada cliente depende do cabelo, do produto usado e da avaliação da profissional.
 ---

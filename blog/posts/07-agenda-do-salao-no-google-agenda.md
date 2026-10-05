@@ -1,8 +1,8 @@
 ---
-title: Agenda do salão no Google Agenda: como usar pelo celular
-h1: Agenda do salão no Google Agenda: como usar pelo celular, de graça
+title: Agenda para salão de beleza no celular, grátis
+h1: Agenda para salão de beleza no celular: como usar a Google Agenda de graça
 slug: agenda-do-salao-no-google-agenda
-description: Aprenda a usar a Google Agenda como agenda do salão de beleza pelo celular: marcar clientes, ativar lembretes, separar serviços por cor e não esquecer nenhum retorno.
+description: Agenda para salão de beleza grátis no celular: aprenda a usar a Google Agenda para marcar clientes, ativar lembretes, separar serviços por cor e não esquecer retornos.
 date: 2026-10-05
 resposta: Para usar a Google Agenda como agenda do salão, abra o app no celular, crie um evento para cada atendimento com o nome da cliente e o serviço no título, marque início e fim, ative um lembrete e use uma cor para cada tipo de serviço. Crie também eventos nas datas em que cada cliente deve voltar, para o celular avisar a hora de mandar o lembrete. É gratuito.
 ---

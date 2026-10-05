@@ -1,8 +1,8 @@
 ---
-title: Mensagem de lembrete de retorno para cliente de salão
-h1: Mensagem de lembrete de retorno para cliente de salão: modelos por procedimento
+title: Mensagem de lembrete para cliente: modelos prontos para salão
+h1: Mensagem de lembrete para cliente: retorno e confirmação de horário no salão
 slug: mensagem-de-lembrete-de-retorno-para-cliente-de-salao
-description: Mensagens prontas de lembrete de retorno e de confirmação de horário para clientes de salão. Modelos para coloração, progressiva, botox capilar, unha e sobrancelha.
+description: Modelos de mensagem de lembrete para cliente: lembrete de retorno e de confirmação de horário, prontos para WhatsApp. Para coloração, progressiva, unha e sobrancelha.
 date: 2026-10-05
 resposta: A mensagem de lembrete de retorno deve ir alguns dias antes do prazo de refazer o procedimento, pelo WhatsApp, com o nome da cliente, o serviço e dois horários livres para ela escolher. Já o lembrete de horário marcado vai um dia antes do atendimento, pedindo para a cliente confirmar. Abaixo estão modelos prontos para coloração, progressiva, botox capilar, unha e sobrancelha.
 ---

@@ -1,5 +1,5 @@
 ---
-title: Promoções para salão de beleza: ideias para cada data do ano
+title: Promoção para salão de beleza: ideias e textos prontos
 h1: Promoções para salão de beleza: Dia das Mães, Black Friday, Natal e mais, com textos prontos
 slug: promocoes-para-salao-de-beleza-datas-comemorativas
 description: Ideias de promoção para salão de beleza em cada data comemorativa do ano, com textos prontos para WhatsApp. Dia das Mães, Dia dos Namorados, Black Friday, Natal e Réveillon.

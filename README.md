@@ -25,7 +25,9 @@ O conversor gera o `index.html` estático, leve e com SEO, a partir do export.
 
 ## Blog
 
-- Cada artigo pode ter `resposta:` (resposta rápida em destaque no topo) e uma seção ` `blog/posts/*.md` (Markdown com cabeçalho: title, h1, slug, description, date).
+- Artigos ficam em `blog/posts/*.md` (Markdown com cabeçalho: title, h1, slug, description, date).
+- Cada artigo pode ter `resposta:` no cabeçalho (resposta rápida em destaque no topo) e uma seção `## Perguntas frequentes` com perguntas em `###` (vira schema FAQPage). Isso ajuda a aparecer nas respostas de IA do Google.
+- A página Quem somos vem de `blog/sobre.md`.
 - Citações (`>`) viram balões de WhatsApp com botão "Copiar". Linha em branco entre duas citações = mensagens separadas.
 - Depois de criar ou editar um artigo: `python3 tools/gerar-blog.py` (gera as páginas em `blog/` e atualiza o `sitemap.xml`).
 - O conversor do Design também roda o gerador do blog no final.

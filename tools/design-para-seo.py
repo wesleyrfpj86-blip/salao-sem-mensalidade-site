@@ -13,7 +13,7 @@ O que ele faz:
   - insere a seção de perguntas frequentes de seo/faq.html antes da oferta final
   - salva fontes em assets/fonts/ e a foto em WebP leve em assets/img/
   - troca os efeitos de hover do editor por CSS puro
-Gera: index.html, assets/, e mantém robots.txt e sitemap.xml.
+Gera: index.html, assets/, e roda tools/gerar-blog.py (blog + sitemap.xml).
 """
 import base64, gzip, io, json, re, sys, zlib
 from datetime import date
@@ -63,6 +63,9 @@ def main(export_path):
         item = manifest[uid]
         (fonts_dir / f"{uid[:8]}.woff2").write_bytes(decodificar(item))
         css = css.replace(f'url("{uid}")', f'url("assets/fonts/{uid[:8]}.woff2")')
+    # fontes também num CSS compartilhado, usado pelo blog
+    font_css = "\n".join(re.findall(r"@font-face\s*\{.*?\}", css, re.S)).replace("assets/fonts/", "fonts/")
+    (ROOT / "assets" / "fonts.css").write_text(font_css, encoding="utf-8")
 
     # ---- imagens: WebP leve + srcset; a primeira (hero) vira também og-image
     imgs = re.findall(r'<img src="([0-9a-f-]{36})"([^>]*)>', body)
@@ -109,6 +112,8 @@ def main(export_path):
         body = body.replace("<footer", faq + "\n\n  <footer", 1)
     # rodapé com o conteúdo principal separado
     body = body.replace("<footer", "</main>\n  <footer", 1)
+    # link do blog no rodapé
+    body = re.sub(r'(<footer[^>]*>)', r'\1\n    <p style="margin: 0 0 10px; font-size: 14px;"><a href="blog/" style="color: #A81742; font-weight: 700;">Blog: dicas e mensagens prontas para salão</a></p>', body, count=1)
     body = re.sub(r'(<div style="font-family: Manrope[^"]*">)', r'\1\n<main>', body, count=1)
 
     extra_css = """
@@ -141,13 +146,9 @@ def main(export_path):
 """
     (ROOT / "index.html").write_text(html, encoding="utf-8")
 
-    # sitemap com data de hoje
-    url = re.search(r'<link rel="canonical" href="([^"]+)"', head).group(1)
-    (ROOT / "sitemap.xml").write_text(
-        '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f"  <url><loc>{url}</loc><lastmod>{date.today().isoformat()}</lastmod></url>\n"
-        "</urlset>\n", encoding="utf-8")
+    # blog e sitemap
+    import subprocess
+    subprocess.run([sys.executable, str(ROOT / "tools" / "gerar-blog.py")], check=True)
     print(f"OK: index.html {len(html)//1024} KB, {len(imgs)} imagem(ns), {n} efeitos de hover.")
 
 

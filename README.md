@@ -22,3 +22,10 @@ O conversor gera o `index.html` estático, leve e com SEO, a partir do export.
 - `assets/`: fontes e imagens geradas pelo conversor.
 - Copy: sem travessão no texto visível.
 - `googleb527965b7c651105.html`: verificação do Google Search Console (conta wesleyoasis001). Não apagar.
+
+## Blog
+
+- Artigos ficam em `blog/posts/*.md` (Markdown com cabeçalho: title, h1, slug, description, date).
+- Citações (`>`) viram balões de WhatsApp com botão "Copiar". Linha em branco entre duas citações = mensagens separadas.
+- Depois de criar ou editar um artigo: `python3 tools/gerar-blog.py` (gera as páginas em `blog/` e atualiza o `sitemap.xml`).
+- O conversor do Design também roda o gerador do blog no final.

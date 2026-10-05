@@ -4,10 +4,11 @@ h1: Agenda do salão no Google Agenda: como usar pelo celular, de graça
 slug: agenda-do-salao-no-google-agenda
 description: Aprenda a usar a Google Agenda como agenda do salão de beleza pelo celular: marcar clientes, ativar lembretes, separar serviços por cor e não esquecer nenhum retorno.
 date: 2026-10-05
+resposta: Para usar a Google Agenda como agenda do salão, abra o app no celular, crie um evento para cada atendimento com o nome da cliente e o serviço no título, marque início e fim, ative um lembrete e use uma cor para cada tipo de serviço. Crie também eventos nas datas em que cada cliente deve voltar, para o celular avisar a hora de mandar o lembrete. É gratuito.
 ---
 <p class="lead">Você provavelmente já tem a Google Agenda no celular e nem usa. Ela é gratuita, vem instalada na maioria dos celulares Android, funciona no iPhone e resolve boa parte da bagunça de horários do salão. Veja como transformar a Google Agenda na agenda do seu salão, passo a passo.</p>
 
-## Por que usar a Google Agenda no salão
+## Por que usar a Google Agenda no salão?
 
 - **É de graça** e você já tem uma conta Google se usa Android ou Gmail.
 - **Fica no celular**, no bolso, o dia inteiro.
@@ -15,7 +16,7 @@ date: 2026-10-05
 - **Não se perde**: se você trocar ou perder o celular, a agenda continua salva na sua conta.
 - **Dá para consultar o dia, a semana ou o mês** com um toque.
 
-## Passo a passo para começar
+## Como usar a Google Agenda como agenda do salão, passo a passo?
 
 ### 1. Abra o app e confira a conta
 
@@ -55,13 +56,31 @@ Não sabe o prazo de cada serviço? Use a nossa [tabela de retorno por procedime
 
 Crie eventos para horário de almoço, folga e compromissos pessoais. Assim você não marca cliente em cima por engano.
 
-## Erros comuns que bagunçam a agenda
+## Quais erros bagunçam a agenda do salão?
 
 - **Marcar em mais de um lugar.** Se metade está no caderno e metade no celular, você vai marcar duas clientes no mesmo horário. Escolha só a agenda.
 - **Esquecer de colocar o horário de fim.** Sem a duração certa, a agenda parece livre quando não está.
 - **Não anotar o serviço.** "Maria, 14h" não diz se é uma unha de 40 minutos ou uma progressiva de 3 horas.
 
-## O que a agenda não faz sozinha
+## Perguntas frequentes
+
+### A Google Agenda é gratuita para salão?
+
+Sim. A Google Agenda é gratuita para quem tem uma conta Google, como uma conta do Gmail. Funciona no celular Android, no iPhone e no computador.
+
+### Qual o melhor app de agenda para salão de beleza?
+
+Para quem quer simplicidade e custo zero, a Google Agenda resolve bem a marcação de horários. Ela só não guarda o histórico da cliente nem avisa aniversários sozinha. Para isso, vale combinar a agenda com um cadastro de clientes que envie os retornos direto para ela.
+
+### Como colocar lembrete na Google Agenda?
+
+Ao criar ou editar o evento, toque em "Adicionar notificação" e escolha quanto tempo antes quer ser avisada, por exemplo 1 hora antes ou 1 dia antes. Dá para colocar mais de um lembrete no mesmo evento.
+
+### Dá para usar a mesma agenda com outras profissionais do salão?
+
+Sim. A Google Agenda permite compartilhar uma agenda com outras pessoas, escolhendo se elas podem só ver ou também editar os horários.
+
+## O que a agenda não faz sozinha?
 
 A Google Agenda é ótima para horários, mas ela não guarda o histórico da cliente, não sabe quando é o aniversário dela e não mostra quem sumiu. E criar o evento de retorno manualmente para cada cliente dá trabalho e acaba ficando para depois.
 

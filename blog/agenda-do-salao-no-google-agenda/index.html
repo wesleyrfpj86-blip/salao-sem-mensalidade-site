@@ -58,6 +58,11 @@ table { border-collapse: collapse; width:100%; font-size:15px; }
 th, td { text-align:left; padding: 11px 14px; border-bottom:1px solid var(--line); vertical-align: top; }
 th { background: var(--pink); color: var(--acc2); font-weight:800; }
 tr:last-child td { border-bottom:0; }
+.resposta { margin: 6px 0 30px; padding: 20px 22px; border-radius: 18px; background: #fff;
+  border: 1px solid var(--line); border-left: 5px solid var(--acc); }
+.resposta-tit { margin: 0 0 6px !important; font-size: 12px !important; font-weight: 800; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--acc2); }
+.resposta p { margin: 0; font-size: 17px; line-height: 1.65; }
 .cta-box { margin: 48px 0 20px; padding: 30px 26px; border-radius: 24px; color:#fff; text-align:center;
   background: linear-gradient(135deg, #C0234A, #8E1738); }
 .cta-box h2 { color:#fff; margin: 0 0 10px; font-size: clamp(24px, 4vw, 30px); }
@@ -79,21 +84,22 @@ footer { margin-top: 50px; padding: 30px 0; border-top: 1px solid var(--line); b
 @media (max-width: 560px) { .top nav a:not(.cta) { display:none; } .top nav a.cta { font-size:13px; padding:8px 13px; margin-left:0; } .logo { font-size:14px; line-height:1.25; } article p, article li { font-size: 16.5px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "Agenda do salão no Google Agenda: como usar pelo celular, de graça", "description": "Aprenda a usar a Google Agenda como agenda do salão de beleza pelo celular: marcar clientes, ativar lembretes, separar serviços por cor e não esquecer nenhum retorno.", "datePublished": "2026-10-05", "dateModified": "2026-10-05", "inLanguage": "pt-BR", "mainEntityOfPage": "https://salaosemmensalidade.netlify.app/blog/agenda-do-salao-no-google-agenda/", "image": "https://salaosemmensalidade.netlify.app/assets/img/og-image.jpg", "author": {"@type": "Organization", "name": "Salão Sem Mensalidade", "url": "https://salaosemmensalidade.netlify.app/"}, "publisher": {"@type": "Organization", "name": "Salão Sem Mensalidade", "url": "https://salaosemmensalidade.netlify.app/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://salaosemmensalidade.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://salaosemmensalidade.netlify.app/blog/"}, {"@type": "ListItem", "position": 3, "name": "Agenda do salão no Google Agenda: como usar pelo celular, de graça", "item": "https://salaosemmensalidade.netlify.app/blog/agenda-do-salao-no-google-agenda/"}]}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BlogPosting", "headline": "Agenda do salão no Google Agenda: como usar pelo celular, de graça", "description": "Aprenda a usar a Google Agenda como agenda do salão de beleza pelo celular: marcar clientes, ativar lembretes, separar serviços por cor e não esquecer nenhum retorno.", "datePublished": "2026-10-05", "dateModified": "2026-10-05", "inLanguage": "pt-BR", "mainEntityOfPage": "https://salaosemmensalidade.netlify.app/blog/agenda-do-salao-no-google-agenda/", "image": "https://salaosemmensalidade.netlify.app/assets/img/og-image.jpg", "author": {"@type": "Organization", "name": "Salão Sem Mensalidade", "url": "https://salaosemmensalidade.netlify.app/", "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único."}, "publisher": {"@type": "Organization", "name": "Salão Sem Mensalidade", "url": "https://salaosemmensalidade.netlify.app/", "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único."}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://salaosemmensalidade.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://salaosemmensalidade.netlify.app/blog/"}, {"@type": "ListItem", "position": 3, "name": "Agenda do salão no Google Agenda: como usar pelo celular, de graça", "item": "https://salaosemmensalidade.netlify.app/blog/agenda-do-salao-no-google-agenda/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A Google Agenda é gratuita para salão?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. A Google Agenda é gratuita para quem tem uma conta Google, como uma conta do Gmail. Funciona no celular Android, no iPhone e no computador."}}, {"@type": "Question", "name": "Qual o melhor app de agenda para salão de beleza?", "acceptedAnswer": {"@type": "Answer", "text": "Para quem quer simplicidade e custo zero, a Google Agenda resolve bem a marcação de horários. Ela só não guarda o histórico da cliente nem avisa aniversários sozinha. Para isso, vale combinar a agenda com um cadastro de clientes que envie os retornos direto para ela."}}, {"@type": "Question", "name": "Como colocar lembrete na Google Agenda?", "acceptedAnswer": {"@type": "Answer", "text": "Ao criar ou editar o evento, toque em \"Adicionar notificação\" e escolha quanto tempo antes quer ser avisada, por exemplo 1 hora antes ou 1 dia antes. Dá para colocar mais de um lembrete no mesmo evento."}}, {"@type": "Question", "name": "Dá para usar a mesma agenda com outras profissionais do salão?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. A Google Agenda permite compartilhar uma agenda com outras pessoas, escolhendo se elas podem só ver ou também editar os horários."}}]}]}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="logo" href="../../"><i>S</i>Salão Sem Mensalidade</a>
-  <nav><a href="../../blog/">Blog</a><a class="cta" href="../../">Conhecer o sistema</a></nav>
+  <nav><a href="../../blog/">Blog</a><a href="../../sobre/">Quem somos</a><a class="cta" href="../../">Conhecer o sistema</a></nav>
 </div></header>
 <main class="wrap">
 <nav class="crumbs" aria-label="Você está em"><a href="../../">Início</a> › <a href="../">Blog</a></nav>
 <article>
 <h1>Agenda do salão no Google Agenda: como usar pelo celular, de graça</h1>
-<p class="meta">Por Equipe Salão Sem Mensalidade · 5 de outubro de 2026</p>
+<p class="meta">Por <a href="../../sobre/">Equipe Salão Sem Mensalidade</a> · 5 de outubro de 2026</p>
+<div class="resposta"><p class="resposta-tit">Resposta rápida</p><p>Para usar a Google Agenda como agenda do salão, abra o app no celular, crie um evento para cada atendimento com o nome da cliente e o serviço no título, marque início e fim, ative um lembrete e use uma cor para cada tipo de serviço. Crie também eventos nas datas em que cada cliente deve voltar, para o celular avisar a hora de mandar o lembrete. É gratuito.</p></div>
 <p class="lead">Você provavelmente já tem a Google Agenda no celular e nem usa. Ela é gratuita, vem instalada na maioria dos celulares Android, funciona no iPhone e resolve boa parte da bagunça de horários do salão. Veja como transformar a Google Agenda na agenda do seu salão, passo a passo.</p>
 
-<h2>Por que usar a Google Agenda no salão</h2>
+<h2>Por que usar a Google Agenda no salão?</h2>
 <ul>
 <li><strong>É de graça</strong> e você já tem uma conta Google se usa Android ou Gmail.</li>
 <li><strong>Fica no celular</strong>, no bolso, o dia inteiro.</li>
@@ -101,7 +107,7 @@ footer { margin-top: 50px; padding: 30px 0; border-top: 1px solid var(--line); b
 <li><strong>Não se perde</strong>: se você trocar ou perder o celular, a agenda continua salva na sua conta.</li>
 <li><strong>Dá para consultar o dia, a semana ou o mês</strong> com um toque.</li>
 </ul>
-<h2>Passo a passo para começar</h2>
+<h2>Como usar a Google Agenda como agenda do salão, passo a passo?</h2>
 <h3>1. Abra o app e confira a conta</h3>
 <p>No Android, procure o app <strong>Agenda</strong> (ícone azul com a data do dia). No iPhone, baixe <strong>Google Agenda</strong> na App Store e entre com a sua conta Google. Use sempre a mesma conta, de preferência a do salão.</p>
 <h3>2. Marque um atendimento</h3>
@@ -147,13 +153,22 @@ footer { margin-top: 50px; padding: 30px 0; border-top: 1px solid var(--line); b
 <p>Não sabe o prazo de cada serviço? Use a nossa <a href="../de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao/">tabela de retorno por procedimento</a>.</p>
 <h3>6. Bloqueie folgas e almoço</h3>
 <p>Crie eventos para horário de almoço, folga e compromissos pessoais. Assim você não marca cliente em cima por engano.</p>
-<h2>Erros comuns que bagunçam a agenda</h2>
+<h2>Quais erros bagunçam a agenda do salão?</h2>
 <ul>
 <li><strong>Marcar em mais de um lugar.</strong> Se metade está no caderno e metade no celular, você vai marcar duas clientes no mesmo horário. Escolha só a agenda.</li>
 <li><strong>Esquecer de colocar o horário de fim.</strong> Sem a duração certa, a agenda parece livre quando não está.</li>
 <li><strong>Não anotar o serviço.</strong> "Maria, 14h" não diz se é uma unha de 40 minutos ou uma progressiva de 3 horas.</li>
 </ul>
-<h2>O que a agenda não faz sozinha</h2>
+<h2>Perguntas frequentes</h2>
+<h3>A Google Agenda é gratuita para salão?</h3>
+<p>Sim. A Google Agenda é gratuita para quem tem uma conta Google, como uma conta do Gmail. Funciona no celular Android, no iPhone e no computador.</p>
+<h3>Qual o melhor app de agenda para salão de beleza?</h3>
+<p>Para quem quer simplicidade e custo zero, a Google Agenda resolve bem a marcação de horários. Ela só não guarda o histórico da cliente nem avisa aniversários sozinha. Para isso, vale combinar a agenda com um cadastro de clientes que envie os retornos direto para ela.</p>
+<h3>Como colocar lembrete na Google Agenda?</h3>
+<p>Ao criar ou editar o evento, toque em "Adicionar notificação" e escolha quanto tempo antes quer ser avisada, por exemplo 1 hora antes ou 1 dia antes. Dá para colocar mais de um lembrete no mesmo evento.</p>
+<h3>Dá para usar a mesma agenda com outras profissionais do salão?</h3>
+<p>Sim. A Google Agenda permite compartilhar uma agenda com outras pessoas, escolhendo se elas podem só ver ou também editar os horários.</p>
+<h2>O que a agenda não faz sozinha?</h2>
 <p>A Google Agenda é ótima para horários, mas ela não guarda o histórico da cliente, não sabe quando é o aniversário dela e não mostra quem sumiu. E criar o evento de retorno manualmente para cada cliente dá trabalho e acaba ficando para depois.</p>
 <p>Foi para isso que criamos o nosso sistema. Você cadastra a cliente num <strong>formulário rápido pelo celular</strong> e, no próprio formulário, coloca a data e o horário do retorno. <strong>O compromisso aparece sozinho na sua Google Agenda</strong>, sem você precisar criar evento nenhum. Ao mesmo tempo, o sistema guarda o cadastro, mostra as aniversariantes do mês e quem está atrasada para voltar.</p>
 <p>A nossa equipe faz toda a configuração e liga o sistema à sua conta Google no ato da compra. Você não precisa mexer em nada. E é pagamento único, sem mensalidade.</p>
@@ -167,7 +182,7 @@ footer { margin-top: 50px; padding: 30px 0; border-top: 1px solid var(--line); b
 <section class="rel"><h2>Leia também</h2><div class="cards"><a class="card" href="../sistema-para-salao-sem-mensalidade-vale-a-pena/"><h3>Sistema para salão sem mensalidade: vale a pena? Faça a conta antes de assinar</h3><p>Compare sistema para salão com mensalidade e com pagamento único. Veja a conta de 1, 2 e 3 anos e o que analisar antes de escolher o sistema do seu salão.</p></a><a class="card" href="../caderno-planilha-ou-sistema-para-controlar-clientes-do-salao/"><h3>Caderno, planilha ou sistema: qual o melhor jeito de controlar as clientes do salão?</h3><p>Compare caderno, planilha de Excel, sistema com mensalidade e sistema simples pelo celular para controlar clientes do salão de beleza. Vantagens, problemas e qual escolher.</p></a><a class="card" href="../como-saber-quais-clientes-pararam-de-vir-ao-salao/"><h3>Como saber quais clientes pararam de vir ao salão (e trazer de volta)</h3><p>Aprenda a identificar as clientes que pararam de vir ao salão, entender por que sumiram e trazer de volta com um plano simples de 4 passos e mensagens prontas.</p></a></div></section>
 </main>
 <footer><div class="wrap">
-  <p style="margin:0 0 6px;"><a href="../../">Sistema para salão pelo celular, sem mensalidade</a> · <a href="../../blog/">Blog</a></p>
+  <p style="margin:0 0 6px;"><a href="../../">Sistema para salão pelo celular, sem mensalidade</a> · <a href="../../blog/">Blog</a> · <a href="../../sobre/">Quem somos</a></p>
   <p style="margin:0;">© 2026 Salão Sem Mensalidade. Todos os direitos reservados.</p>
 </div></footer>
 <script>

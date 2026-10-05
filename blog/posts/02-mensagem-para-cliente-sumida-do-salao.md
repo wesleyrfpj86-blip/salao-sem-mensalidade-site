@@ -4,10 +4,11 @@ h1: Mensagem para cliente sumida do salão: como chamar de volta sem parecer cha
 slug: mensagem-para-cliente-sumida-do-salao
 description: Modelos de mensagem para chamar de volta a cliente que sumiu do salão, prontos para WhatsApp. Saiba quando mandar, o que dizer e o que evitar.
 date: 2026-10-05
+resposta: Para chamar de volta uma cliente sumida do salão, mande uma mensagem individual no WhatsApp, com o nome dela, em tom de carinho e sem cobrança. Diga que sentiu falta, ofereça um motivo concreto para voltar, como um desconto ou mimo com prazo, e termine com uma pergunta fácil de responder. Se ela não responder, espere algumas semanas antes de tentar de novo.
 ---
 <p class="lead">Toda dona de salão tem aquela lista de clientes que vinham sempre e, de repente, pararam de aparecer. Na maioria das vezes ela não foi embora por raiva. Ela só se distraiu, a rotina apertou ou alguém chamou primeiro. Uma mensagem simples, no momento certo, traz boa parte dessas clientes de volta. Aqui estão modelos prontos e o jeito certo de usar.</p>
 
-## Primeiro: quando a cliente conta como sumida?
+## Quando a cliente conta como sumida?
 
 Depende do serviço. Uma cliente de unha que vinha toda semana e não aparece há um mês já está sumida. Uma cliente de coloração que vinha a cada 40 dias e está há três meses sem vir também. Uma boa regra:
 
@@ -17,7 +18,7 @@ Depende do serviço. Uma cliente de unha que vinha toda semana e não aparece h�
 
 Se você não sabe de cabeça o prazo de cada procedimento, veja a nossa [tabela de retorno por procedimento](../de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao/).
 
-## O que funciona (e o que afasta)
+## O que escrever para a cliente voltar ao salão (e o que evitar)?
 
 **Funciona:** mensagem curta, com o nome dela, tom de carinho, e uma pergunta fácil de responder.
 
@@ -68,6 +69,24 @@ Quando você sabe o que ela fazia, a mensagem fica muito mais certeira.
 > [Nome], posso te pedir um favor? Queria saber se teve alguma coisa que eu poderia ter feito melhor na sua última visita. Quero muito que você se sinta bem aqui.
 
 > Oi, [Nome]! Se algo não ficou do jeito que você queria da última vez, me conta. Eu faço questão de resolver. E se foi só correria, tudo bem também, tô aqui quando precisar!
+
+## Perguntas frequentes
+
+### Como chamar a cliente de volta sem parecer chata?
+
+Mande uma mensagem só, curta, com o nome dela e em tom de carinho, como quem sentiu falta. Evite frases de cobrança como "você sumiu, hein?" e não insista no mesmo dia. Termine com uma pergunta simples, por exemplo oferecendo dois horários.
+
+### O que oferecer para a cliente sumida voltar?
+
+Funciona bem um presente com prazo: de 10% a 20% de desconto no próximo serviço, uma hidratação de cortesia ou um valor especial de retorno. O prazo, como "até o fim do mês", ajuda a cliente a decidir logo.
+
+### Quantas vezes posso mandar mensagem para a cliente que sumiu?
+
+Uma mensagem e espere. Se não houver resposta, tente de novo só depois de algumas semanas, com outra abordagem, como uma mensagem de aniversário ou uma promoção de data comemorativa. Mandar toda semana afasta.
+
+### E se a cliente sumiu porque não gostou do atendimento?
+
+Pergunte com humildade se ficou tudo bem no último atendimento e se há algo que você poderia ter feito melhor. Muitas clientes voltam quando sentem que a opinião delas importa. Se houver um problema, ofereça resolver.
 
 ## Dicas para dar certo
 

@@ -113,7 +113,7 @@ def main(export_path):
     # rodapé com o conteúdo principal separado
     body = body.replace("<footer", "</main>\n  <footer", 1)
     # link do blog no rodapé
-    body = re.sub(r'(<footer[^>]*>)', r'\1\n    <p style="margin: 0 0 10px; font-size: 14px;"><a href="blog/" style="color: #A81742; font-weight: 700;">Blog: dicas e mensagens prontas para salão</a></p>', body, count=1)
+    body = re.sub(r'(<footer[^>]*>)', r'\1\n    <p style="margin: 0 0 10px; font-size: 14px;"><a href="blog/" style="color: #A81742; font-weight: 700;">Blog: dicas e mensagens prontas para salão</a> · <a href="sobre/" style="color: #A81742; font-weight: 700;">Quem somos</a></p>', body, count=1)
     body = re.sub(r'(<div style="font-family: Manrope[^"]*">)', r'\1\n<main>', body, count=1)
 
     extra_css = """

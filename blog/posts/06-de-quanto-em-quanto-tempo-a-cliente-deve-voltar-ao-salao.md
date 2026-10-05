@@ -4,12 +4,13 @@ h1: De quanto em quanto tempo a cliente deve voltar? Tabela de retorno por proce
 slug: de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao
 description: Tabela com o intervalo médio de retorno de cada procedimento de salão: retoque de raiz, progressiva, botox capilar, corte, unha, sobrancelha, cílios e depilação.
 date: 2026-10-05
+resposta: Em média, o retoque de raiz é feito a cada 4 a 6 semanas, a progressiva a cada 3 a 4 meses, o botox capilar a cada 1 a 2 meses, a manicure a cada 7 a 15 dias, o design de sobrancelha a cada 15 a 20 dias e a manutenção de cílios a cada 15 a 21 dias. O prazo ideal de cada cliente depende do cabelo, do produto usado e da avaliação da profissional.
 ---
 <p class="lead">Saber o prazo de retorno de cada procedimento é o que permite chamar a cliente na hora certa: nem cedo demais, nem quando ela já foi para outro salão. Reunimos numa tabela os intervalos médios mais usados no dia a dia dos salões, para você usar como referência nos seus lembretes.</p>
 
 <p><strong>Importante:</strong> os prazos abaixo são médias de referência. O intervalo ideal de cada cliente depende do tipo de cabelo, da velocidade de crescimento, do produto usado e da avaliação da profissional. Siga sempre as orientações do fabricante do produto.</p>
 
-## Tabela de retorno por procedimento
+## Qual o intervalo de retorno de cada procedimento?
 
 ### Cabelo
 
@@ -44,7 +45,7 @@ date: 2026-10-05
 | Lash lifting | 6 a 8 semanas |
 | Depilação com cera | 3 a 4 semanas |
 
-## Como usar essa tabela no salão
+## Como usar a tabela de retorno no salão?
 
 ### 1. Combine o retorno antes de a cliente ir embora
 
@@ -64,7 +65,25 @@ O lembrete é para ela marcar **antes** de a raiz aparecer ou de a unha descasca
 
 Se o retorno era em 5 semanas e já foram 10, é hora de uma mensagem diferente, de reaproximação. Veja como fazer em [mensagem para cliente sumida do salão](../mensagem-para-cliente-sumida-do-salao/).
 
-## Quanto isso vale no fim do mês
+## Perguntas frequentes
+
+### De quanto em quanto tempo fazer progressiva?
+
+Em média, a cada 3 a 4 meses, quando a raiz cresce e o cabelo perde o efeito liso. O intervalo depende do produto usado, do tipo de cabelo e da orientação do fabricante e da profissional.
+
+### De quanto em quanto tempo retocar a raiz da coloração?
+
+Em média, a cada 4 a 6 semanas, quando o crescimento da raiz começa a aparecer. Em cabelos que crescem rápido ou com grande diferença entre a cor natural e a tintura, o intervalo pode ser menor.
+
+### Qual o intervalo entre um botox capilar e outro?
+
+Em geral, de 1 a 2 meses, conforme o produto e o estado do cabelo. Siga sempre a orientação do fabricante e a avaliação da profissional.
+
+### De quanto em quanto tempo fazer a sobrancelha?
+
+O design de sobrancelha costuma ser refeito a cada 15 a 20 dias, quando os pelos começam a crescer fora do desenho.
+
+## Quanto isso vale no fim do mês?
 
 Imagine uma cliente de retoque de raiz que deveria voltar a cada 5 semanas, mas, sem lembrete, volta a cada 8. Em um ano, isso é a diferença entre cerca de 10 visitas e 6 visitas. Ou seja: **4 atendimentos a menos por ano, só dessa cliente**. Multiplique pelo número de clientes de coloração do seu salão e dá para ver quanto dinheiro fica na mesa quando ninguém lembra a cliente de voltar.
 

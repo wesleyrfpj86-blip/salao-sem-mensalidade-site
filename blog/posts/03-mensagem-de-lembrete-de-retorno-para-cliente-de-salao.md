@@ -4,10 +4,11 @@ h1: Mensagem de lembrete de retorno para cliente de salão: modelos por procedim
 slug: mensagem-de-lembrete-de-retorno-para-cliente-de-salao
 description: Mensagens prontas de lembrete de retorno e de confirmação de horário para clientes de salão. Modelos para coloração, progressiva, botox capilar, unha e sobrancelha.
 date: 2026-10-05
+resposta: A mensagem de lembrete de retorno deve ir alguns dias antes do prazo de refazer o procedimento, pelo WhatsApp, com o nome da cliente, o serviço e dois horários livres para ela escolher. Já o lembrete de horário marcado vai um dia antes do atendimento, pedindo para a cliente confirmar. Abaixo estão modelos prontos para coloração, progressiva, botox capilar, unha e sobrancelha.
 ---
 <p class="lead">A cliente adorou o resultado, saiu feliz e prometeu voltar. Aí a vida acontece e, quando ela lembra, já passou da hora. Um lembrete no momento certo resolve isso e enche a sua agenda sem precisar de anúncio. Abaixo você encontra mensagens prontas para cada situação.</p>
 
-## Dois tipos de lembrete que todo salão deveria usar
+## Quais lembretes todo salão deveria mandar?
 
 1. **Lembrete de retorno:** avisa a cliente que está chegando a hora de refazer o procedimento. Traz a cliente de volta.
 2. **Lembrete de horário marcado:** confirma o atendimento um dia antes. Evita falta e buraco na agenda.
@@ -54,7 +55,7 @@ Os dois são simples, mas fazem muita diferença no fim do mês.
 
 > [Nome], passando pra lembrar da manutenção dos seus cílios. Tenho horário na [dia]. Posso reservar?
 
-## Lembrete de horário marcado (confirmação)
+## Como mandar mensagem de confirmação de horário para a cliente?
 
 Mande um dia antes, de preferência no fim da tarde. Peça para a cliente confirmar, assim você tem tempo de remarcar se ela não puder.
 
@@ -63,6 +64,24 @@ Mande um dia antes, de preferência no fim da tarde. Peça para a cliente confir
 > [Nome], tudo certo pra amanhã às [hora]? Se precisar remarcar, me avisa hoje que eu encaixo outra cliente no seu lugar. Obrigada!
 
 > Oi, [Nome]! Seu horário está confirmado para [dia] às [hora]. Qualquer imprevisto, é só me chamar. Até lá! 💕
+
+## Perguntas frequentes
+
+### Quando mandar o lembrete de retorno para a cliente do salão?
+
+Alguns dias antes do prazo de refazer o procedimento. Para retoque de raiz, por exemplo, que costuma ser a cada 4 a 6 semanas, mande o lembrete por volta da quarta ou quinta semana. A ideia é a cliente marcar antes de a raiz aparecer.
+
+### Quando mandar a mensagem de confirmação do horário?
+
+Um dia antes do atendimento, de preferência no fim da tarde, pedindo para a cliente confirmar. Assim, se ela não puder ir, você ainda tem tempo de encaixar outra pessoa no horário.
+
+### Como lembrar de mandar os lembretes de todas as clientes?
+
+Anote a data de retorno de cada cliente no cadastro e crie um lembrete na Google Agenda para essa data. No dia, o celular avisa e você manda a mensagem. Um sistema que envia a data de retorno direto para a agenda faz isso sem trabalho manual.
+
+### O lembrete pode ser automático?
+
+O WhatsApp comum não agenda mensagens. Ferramentas de disparo automático não oficiais podem colocar o número do salão em risco de bloqueio. O mais seguro é deixar o lembrete automático na sua agenda e mandar a mensagem você mesma, o que leva poucos segundos com um modelo pronto.
 
 ## Dicas para os lembretes funcionarem
 

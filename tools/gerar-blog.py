@@ -13,10 +13,13 @@ Cada artigo é um .md com cabeçalho simples:
     description: Resumo para o Google (até ~155 caracteres)
     date: 2026-10-05
     updated: 2026-10-05   (opcional)
+    resposta: Resposta direta de 2 ou 3 frases, mostrada em destaque no topo (opcional)
     ---
     Texto em Markdown...
 
 Citações (linhas começando com ">") viram balões de WhatsApp com botão "Copiar".
+Uma seção "## Perguntas frequentes" com perguntas em "###" vira também o schema FAQPage.
+A página Quem somos vem de blog/sobre.md.
 """
 import html
 import json
@@ -52,6 +55,23 @@ def ler_post(p):
     meta.setdefault("updated", meta["date"])
     meta["md"] = m.group(2).strip()
     return meta
+
+
+def extrair_faq(md):
+    """Lê a seção '## Perguntas frequentes' (perguntas em ###) para o schema FAQPage."""
+    m = re.search(r"^## Perguntas frequentes.*?\n(.*?)(?=^## |\Z)", md, re.S | re.M)
+    if not m:
+        return []
+    itens = []
+    for bloco in re.split(r"^### ", m.group(1), flags=re.M)[1:]:
+        q, _, a = bloco.partition("\n")
+        a = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", a)   # links viram texto
+        a = re.sub(r"[*_>`]", "", a)
+        a = re.sub(r"\s+", " ", a).strip()
+        if q.strip() and a:
+            itens.append({"@type": "Question", "name": q.strip(),
+                          "acceptedAnswer": {"@type": "Answer", "text": a}})
+    return itens
 
 
 def render_md(md):
@@ -108,6 +128,11 @@ table { border-collapse: collapse; width:100%; font-size:15px; }
 th, td { text-align:left; padding: 11px 14px; border-bottom:1px solid var(--line); vertical-align: top; }
 th { background: var(--pink); color: var(--acc2); font-weight:800; }
 tr:last-child td { border-bottom:0; }
+.resposta { margin: 6px 0 30px; padding: 20px 22px; border-radius: 18px; background: #fff;
+  border: 1px solid var(--line); border-left: 5px solid var(--acc); }
+.resposta-tit { margin: 0 0 6px !important; font-size: 12px !important; font-weight: 800; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--acc2); }
+.resposta p { margin: 0; font-size: 17px; line-height: 1.65; }
 .cta-box { margin: 48px 0 20px; padding: 30px 26px; border-radius: 24px; color:#fff; text-align:center;
   background: linear-gradient(135deg, #C0234A, #8E1738); }
 .cta-box h2 { color:#fff; margin: 0 0 10px; font-size: clamp(24px, 4vw, 30px); }
@@ -169,11 +194,11 @@ def pagina(titulo, descricao, url, corpo, jsonld, prefixo, og_type="article"):
 <body>
 <header class="top"><div class="wrap">
   <a class="logo" href="{prefixo}"><i>S</i>{BRAND}</a>
-  <nav><a href="{prefixo}blog/">Blog</a><a class="cta" href="{prefixo}">Conhecer o sistema</a></nav>
+  <nav><a href="{prefixo}blog/">Blog</a><a href="{prefixo}sobre/">Quem somos</a><a class="cta" href="{prefixo}">Conhecer o sistema</a></nav>
 </div></header>
 {corpo}
 <footer><div class="wrap">
-  <p style="margin:0 0 6px;"><a href="{prefixo}">Sistema para salão pelo celular, sem mensalidade</a> · <a href="{prefixo}blog/">Blog</a></p>
+  <p style="margin:0 0 6px;"><a href="{prefixo}">Sistema para salão pelo celular, sem mensalidade</a> · <a href="{prefixo}blog/">Blog</a> · <a href="{prefixo}sobre/">Quem somos</a></p>
   <p style="margin:0;">© {date.today().year} {BRAND}. Todos os direitos reservados.</p>
 </div></footer>
 {JS}
@@ -192,18 +217,24 @@ CTA = """<aside class="cta-box">
 def main():
     posts = [ler_post(p) for p in sorted(POSTS.glob("*.md"))]
     posts.sort(key=lambda m: m["date"], reverse=True)  # mais novos primeiro; mesma data mantém a ordem dos arquivos
-    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/"}
+    org = {"@type": "Organization", "name": BRAND, "url": SITE + "/",
+           "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único."}
 
     for i, p in enumerate(posts):
         url = f"{SITE}/blog/{p['slug']}/"
         outros = [posts[(i + k) % len(posts)] for k in range(1, min(4, len(posts)))]
         rel = "".join(f'<a class="card" href="../{q["slug"]}/"><h3>{html.escape(q["h1"])}</h3><p>{html.escape(q["description"])}</p></a>' for q in outros)
         conteudo = render_md(p["md"])
+        resposta = ""
+        if p.get("resposta"):
+            resposta = f'<div class="resposta"><p class="resposta-tit">Resposta rápida</p><p>{html.escape(p["resposta"])}</p></div>'
+        faq = extrair_faq(p["md"])
         corpo = f"""<main class="wrap">
 <nav class="crumbs" aria-label="Você está em"><a href="../../">Início</a> › <a href="../">Blog</a></nav>
 <article>
 <h1>{html.escape(p['h1'])}</h1>
-<p class="meta">Por Equipe {BRAND} · {data_br(p['date'])}</p>
+<p class="meta">Por <a href="../../sobre/">Equipe {BRAND}</a> · {data_br(p['date'])}</p>
+{resposta}
 {conteudo}
 {CTA}
 </article>
@@ -218,6 +249,8 @@ def main():
                 {"@type": "ListItem", "position": 1, "name": "Início", "item": SITE + "/"},
                 {"@type": "ListItem", "position": 2, "name": "Blog", "item": SITE + "/blog/"},
                 {"@type": "ListItem", "position": 3, "name": p["h1"], "item": url}]}]}
+        if faq:
+            ld["@graph"].append({"@type": "FAQPage", "mainEntity": faq})
         out = ROOT / "blog" / p["slug"]
         out.mkdir(parents=True, exist_ok=True)
         (out / "index.html").write_text(pagina(p["title"], p["description"], url, corpo, ld, "../../"), encoding="utf-8")
@@ -238,10 +271,28 @@ def main():
                "Mensagens prontas para WhatsApp, ideias de promoção e dicas simples para fazer as clientes do salão voltarem mais vezes.",
                SITE + "/blog/", corpo, ld, "../", og_type="website"), encoding="utf-8")
 
+    # página Quem somos
+    sobre_md = (ROOT / "blog" / "sobre.md").read_text(encoding="utf-8")
+    corpo = f"""<main class="wrap">
+<nav class="crumbs" aria-label="Você está em"><a href="../">Início</a></nav>
+<article>
+{render_md(sobre_md)}
+{CTA.replace('href="../../"', 'href="../"')}
+</article>
+</main>"""
+    ld = {"@context": "https://schema.org", "@type": "AboutPage", "url": SITE + "/sobre/", "inLanguage": "pt-BR",
+          "about": org}
+    (ROOT / "sobre").mkdir(exist_ok=True)
+    (ROOT / "sobre" / "index.html").write_text(
+        pagina(f"Quem somos | {BRAND}",
+               "Conheça o Salão Sem Mensalidade: um sistema simples para donas de salão organizarem as clientes pelo celular, com pagamento único e configuração feita pela nossa equipe.",
+               SITE + "/sobre/", corpo, ld, "../", og_type="website"), encoding="utf-8")
+
     # sitemap
     home_mod = date.fromtimestamp((ROOT / "index.html").stat().st_mtime).isoformat()
     urls = [(SITE + "/", home_mod), (SITE + "/blog/", posts[0]["updated"] if posts else home_mod)]
     urls += [(f"{SITE}/blog/{p['slug']}/", p["updated"]) for p in posts]
+    urls.append((SITE + "/sobre/", date.fromtimestamp((ROOT / "blog" / "sobre.md").stat().st_mtime).isoformat()))
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
         "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in urls) + "</urlset>\n",

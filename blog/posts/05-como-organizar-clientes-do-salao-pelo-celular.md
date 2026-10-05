@@ -4,10 +4,11 @@ h1: Como organizar as clientes do salão pelo celular, sem caderno e sem planilh
 slug: como-organizar-clientes-do-salao-pelo-celular
 description: Passo a passo simples para organizar o cadastro de clientes do salão direto do celular: o que anotar, como separar por grupo e como não perder retornos e aniversários.
 date: 2026-10-05
+resposta: Para organizar as clientes do salão pelo celular, cadastre todas num lugar só, na hora do atendimento, com nome, WhatsApp, aniversário, procedimento, data do atendimento e data de retorno. Separe as clientes por grupo, como coloração, unha, VIP e sumidas, e reserve 10 minutos por semana para ver quem faz aniversário e quem está atrasada para voltar.
 ---
 <p class="lead">Caderno que some, papelzinho na gaveta, contato salvo no celular só com o primeiro nome e um emoji. Se o controle de clientes do seu salão está assim, você não está sozinha. A boa notícia é que dá para organizar tudo pelo próprio celular, sem computador e sem aprender sistema complicado.</p>
 
-## Por que organizar as clientes faz o salão faturar mais
+## Por que organizar as clientes faz o salão faturar mais?
 
 A maior parte do faturamento de um salão vem de clientes que voltam. Atrair cliente nova custa caro e dá trabalho. Fazer a cliente que já gosta de você voltar mais vezes é muito mais barato. E isso só acontece quando você sabe:
 
@@ -18,7 +19,7 @@ A maior parte do faturamento de um salão vem de clientes que voltam. Atrair cli
 
 Sem essas informações num lugar só, você depende da memória. E a memória falha, principalmente em semana corrida.
 
-## O que anotar de cada cliente
+## O que anotar no cadastro de clientes do salão?
 
 Não precisa de ficha enorme. O essencial cabe em menos de um minuto de cadastro:
 
@@ -34,7 +35,7 @@ Não precisa de ficha enorme. O essencial cabe em menos de um minuto de cadastro
 
 **Dica de ouro:** anote a fórmula da coloração e qualquer alergia nas observações. Isso evita erro e passa muito profissionalismo.
 
-## Passo a passo para organizar pelo celular
+## Como organizar as clientes do salão pelo celular, passo a passo?
 
 ### 1. Escolha um lugar só para tudo
 
@@ -62,7 +63,7 @@ Separar por grupo é o que permite mandar a mensagem certa para a pessoa certa. 
 
 Toda segunda-feira, por exemplo, veja quem faz aniversário na semana e quem está atrasada para voltar. Mande as mensagens e pronto. Esse hábito simples já muda o movimento do salão.
 
-## Caderno, contatos do celular ou sistema?
+## Caderno, contatos do celular ou sistema: o que é melhor?
 
 **Caderno:** é barato, mas não avisa nada, não separa grupos e pode se perder ou molhar.
 
@@ -74,7 +75,25 @@ Toda segunda-feira, por exemplo, veja quem faz aniversário na semana e quem est
 
 Comparamos essas opções em detalhe no artigo [caderno, planilha ou sistema: qual o melhor jeito de controlar clientes do salão](../caderno-planilha-ou-sistema-para-controlar-clientes-do-salao/).
 
-## Como funciona o nosso sistema
+## Perguntas frequentes
+
+### Qual a melhor forma de fazer o controle de clientes do salão?
+
+Ter todas as clientes num único lugar, de preferência no celular, com nome, WhatsApp, aniversário, procedimentos e data de retorno. O controle precisa mostrar com facilidade quem faz aniversário e quem está atrasada para voltar, senão a informação fica guardada sem ajudar a vender.
+
+### Dá para fazer o cadastro de clientes do salão só pelo celular?
+
+Sim. Com um formulário no celular, o cadastro leva menos de um minuto e pode ser feito na hora do pagamento, sem computador e sem precisar digitar em planilha.
+
+### Quais informações não podem faltar na ficha da cliente?
+
+Nome completo, WhatsApp, data de aniversário, procedimento feito, data do atendimento e data prevista de retorno. Nas observações, anote alergias e a fórmula da coloração.
+
+### Como separar as clientes do salão por grupo?
+
+Pelo serviço que cada uma faz (coloração, química, unha, sobrancelha), pela frequência (VIP, que vem sempre) e pela situação (em dia ou sumida). Assim você manda a promoção ou o lembrete certo para cada grupo.
+
+## Como funciona o nosso sistema?
 
 Criamos o Salão Sem Mensalidade justamente para a dona de salão que não quer complicação:
 

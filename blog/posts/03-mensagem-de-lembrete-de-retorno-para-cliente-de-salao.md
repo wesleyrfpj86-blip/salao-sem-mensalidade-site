@@ -99,4 +99,4 @@ O lembrete só funciona se você souber **quem** precisa ser lembrada e **quando
 
 No nosso sistema, feito todo pelo celular, você cadastra o atendimento num formulário rápido e já preenche a data de retorno. Essa data **aparece sozinha na sua Google Agenda**, então o próprio celular te avisa na hora de mandar o lembrete. E o painel mostra quem já passou do prazo de voltar. Não tem planilha pra mexer e a nossa equipe deixa tudo configurado pra você.
 
-Quer saber qual prazo usar para cada serviço? Veja a [tabela de retorno por procedimento](../de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao/) e aprenda a [usar a Google Agenda no salão](../agenda-do-salao-no-google-agenda/).
+Depois do atendimento, use também as [mensagens de agradecimento e pós-atendimento](../mensagem-para-cliente-agradecimento-e-avaliacao/). Quer saber qual prazo usar para cada serviço? Veja a [tabela de retorno por procedimento](../de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao/) e aprenda a [usar a Google Agenda no salão](../agenda-do-salao-no-google-agenda/).

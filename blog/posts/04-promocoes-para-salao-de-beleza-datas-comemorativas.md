@@ -50,6 +50,8 @@ Outra dica: **promoção não precisa ser só desconto.** Brinde, combo e horár
 
 ### Black Friday
 
+Preparamos um guia completo, com 8 ideias e calendário de divulgação: [Black Friday para salão de beleza](../black-friday-para-salao-de-beleza/).
+
 > Black Friday no salão! 🖤 Até [data], o pacote de 3 hidratações sai com 30% de desconto. Vagas limitadas. Quer garantir o seu, [Nome]?
 
 > [Nome], na nossa Black Friday a coloração vem com hidratação de cortesia. Válido só até domingo. Te mando os horários livres?

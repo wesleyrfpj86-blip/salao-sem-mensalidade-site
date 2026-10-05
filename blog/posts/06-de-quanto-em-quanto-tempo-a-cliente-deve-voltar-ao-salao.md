@@ -1,8 +1,8 @@
 ---
-title: De quanto em quanto tempo fazer progressiva, raiz e mais
-h1: De quanto em quanto tempo fazer progressiva, retocar a raiz e outros procedimentos? Tabela de retorno
+title: Tabela de retorno do salão: raiz, botox, unha e mais
+h1: De quanto em quanto tempo a cliente deve voltar? Tabela de retorno por procedimento (raiz, botox, unha e mais)
 slug: de-quanto-em-quanto-tempo-a-cliente-deve-voltar-ao-salao
-description: De quanto em quanto tempo fazer progressiva, retocar a raiz, botox capilar, unha e sobrancelha? Veja a tabela com o intervalo médio de cada procedimento de salão.
+description: De quanto em quanto tempo retocar a raiz, fazer botox capilar, unha, sobrancelha e cílios? Tabela com o intervalo médio de retorno de cada procedimento de salão.
 date: 2026-10-05
 resposta: Em média, o retoque de raiz é feito a cada 4 a 6 semanas, a progressiva a cada 3 a 4 meses, o botox capilar a cada 1 a 2 meses, a manicure a cada 7 a 15 dias, o design de sobrancelha a cada 15 a 20 dias e a manutenção de cílios a cada 15 a 21 dias. O prazo ideal de cada cliente depende do cabelo, do produto usado e da avaliação da profissional.
 ---
@@ -69,7 +69,7 @@ Se o retorno era em 5 semanas e já foram 10, é hora de uma mensagem diferente,
 
 ### De quanto em quanto tempo fazer progressiva?
 
-Em média, a cada 3 a 4 meses, quando a raiz cresce e o cabelo perde o efeito liso. O intervalo depende do produto usado, do tipo de cabelo e da orientação do fabricante e da profissional.
+Em média, a cada 3 a 4 meses, quando a raiz cresce e o cabelo perde o efeito liso. O intervalo depende do produto usado, do tipo de cabelo e da orientação do fabricante e da profissional. Explicamos em detalhe em [de quanto em quanto tempo fazer progressiva](../de-quanto-em-quanto-tempo-fazer-progressiva/).
 
 ### De quanto em quanto tempo retocar a raiz da coloração?
 

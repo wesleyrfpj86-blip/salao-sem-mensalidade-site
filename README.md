@@ -21,3 +21,4 @@ O conversor gera o `index.html` estático, leve e com SEO, a partir do export.
 - `seo/faq.html`: perguntas frequentes visíveis na página. Se alterar uma pergunta, altere também o bloco FAQPage em `seo/head.html`.
 - `assets/`: fontes e imagens geradas pelo conversor.
 - Copy: sem travessão no texto visível.
+- `googleb527965b7c651105.html`: verificação do Google Search Console (conta wesleyoasis001). Não apagar.

@@ -27,6 +27,10 @@ Criamos um **sistema simples, feito todo pelo celular**, para a dona de salão o
 
 Para salões de beleza, cabeleireiras, manicures, designers de sobrancelha e profissionais de beleza que atendem clientes recorrentes e querem um controle simples, sem complicação. Principalmente para quem não tem intimidade com tecnologia: se você sabe mandar mensagem no WhatsApp, você já sabe usar.
 
+## Fale com a gente
+
+**E-mail:** wesleyrfpj.86@gmail.com
+
 ## Sobre o nosso blog
 
 No [blog](../blog/) publicamos conteúdo prático para o dia a dia do salão: mensagens prontas para WhatsApp, ideias de promoção para cada data do ano e jeitos simples de fazer as clientes voltarem. Todos os textos são escritos para ajudar, mesmo para quem não usa o nosso sistema.

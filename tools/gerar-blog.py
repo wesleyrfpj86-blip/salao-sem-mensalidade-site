@@ -220,6 +220,7 @@ def main():
     org = {"@type": "Organization", "name": BRAND, "url": SITE + "/",
            "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único.",
            "founder": {"@type": "Person", "name": "Wesley"},
+           "email": "wesleyrfpj.86@gmail.com",
            "parentOrganization": {"@type": "Organization", "name": "Snipes Digital"},
            "address": {"@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR"}}
 

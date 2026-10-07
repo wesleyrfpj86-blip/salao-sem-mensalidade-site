@@ -29,6 +29,8 @@ Para salões de beleza, cabeleireiras, manicures, designers de sobrancelha e pro
 
 ## Fale com a gente
 
+**WhatsApp:** [(31) 99724-9751](https://wa.me/5531997249751)
+
 **E-mail:** wesleyrfpj.86@gmail.com
 
 ## Sobre o nosso blog

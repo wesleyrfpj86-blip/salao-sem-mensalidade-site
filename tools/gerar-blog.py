@@ -221,6 +221,7 @@ def main():
            "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único.",
            "founder": {"@type": "Person", "name": "Wesley"},
            "email": "wesleyrfpj.86@gmail.com",
+           "telephone": "+55-31-99724-9751",
            "parentOrganization": {"@type": "Organization", "name": "Snipes Digital"},
            "address": {"@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR"}}
 

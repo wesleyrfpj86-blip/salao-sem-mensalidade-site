@@ -4,6 +4,12 @@ O **Salão Sem Mensalidade** nasceu de uma observação simples: muitas donas de
 
 A gente acredita que o salão não precisa de um sistema enorme. Precisa saber quem são as clientes, quando cada uma deve voltar e quando faz aniversário. Com isso nas mãos, a cliente volta mais vezes e a agenda enche.
 
+## Quem está por trás
+
+O Salão Sem Mensalidade é um produto da **Snipes Digital**, de **Belo Horizonte (MG)**, criado pelo **Wesley**, gestor de tráfego que trabalha com marketing digital para pequenos negócios: anúncios no Facebook, Instagram e Google e o Perfil da Empresa no Google.
+
+No dia a dia com esses negócios, o Wesley via sempre o mesmo problema: a dona do salão até tinha clientes, mas perdia muitas delas por falta de um jeito simples de lembrar quem devia voltar. O sistema foi criado para resolver isso e foi testado no dia a dia de um salão de verdade antes de ser lançado.
+
 ## O que fazemos
 
 Criamos um **sistema simples, feito todo pelo celular**, para a dona de salão organizar as clientes sem planilha e sem computador:

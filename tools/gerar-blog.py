@@ -218,7 +218,10 @@ def main():
     posts = [ler_post(p) for p in sorted(POSTS.glob("*.md"))]
     posts.sort(key=lambda m: m["date"], reverse=True)  # mais novos primeiro; mesma data mantém a ordem dos arquivos
     org = {"@type": "Organization", "name": BRAND, "url": SITE + "/",
-           "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único."}
+           "description": "Sistema simples para salão de beleza usado pelo celular, com pagamento único.",
+           "founder": {"@type": "Person", "name": "Wesley"},
+           "parentOrganization": {"@type": "Organization", "name": "Snipes Digital"},
+           "address": {"@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR"}}
 
     for i, p in enumerate(posts):
         url = f"{SITE}/blog/{p['slug']}/"
